@@ -243,7 +243,7 @@ class TaxonDB:
         self.logger.info("Parsing nodes dump file %s", nodespath)
         with open(nodespath, "r") as fh:
             for line in fh:
-                if len(counter) % 500000 == 0:
+                if counter % 500000 == 0:
                     counter += 1
                     self.logger.debug("... parsed %d entries", counter)
                 counter += 1
