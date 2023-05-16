@@ -6,3 +6,7 @@ dependencies:
   - requests >=2.29
   - pip >=21.1
   - setuptools >=61.0
+  - ipykernel # base environment should have nb_conda_kernels
+  - pip:
+    - build
+    - twine

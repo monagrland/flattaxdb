@@ -8,6 +8,11 @@ Aims
 * Use same internal data structures and methods for different source DBs.
 * Report output as far as possible with DwC terms.
 
+Such functionality is available with the R package
+[`taxadb`](https://github.com/ropensci/taxadb), but we wish to work in Python
+with few dependencies as possible.
+
+
 Databases supported
 -------------------
 * NCBI Taxonomy (names.dmp and nodes.dmp file from taxdump)
