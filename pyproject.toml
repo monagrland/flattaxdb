@@ -1,0 +1,11 @@
+[project]
+name = "taxondb"
+version = "0.0.0"
+description = "Yet another Python library to work with taxonomy databases"
+
+[build-system]
+requires = ["setuptools >= 61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
