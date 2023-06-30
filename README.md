@@ -16,4 +16,6 @@ with few dependencies as possible.
 Databases supported
 -------------------
 * NCBI Taxonomy (names.dmp and nodes.dmp file from taxdump)
+  * Tested with version [2022-12-01](https://ftp.ncbi.nih.gov/pub/taxonomy/taxdump_archive/taxdmp_2022-12-01.zip)
 * GBIF Backbone Taxonomy (Taxon.tsv file from backbone dump)
+  * Tested with version [2021-11-26](https://hosted-datasets.gbif.org/datasets/backbone/2021-11-26/backbone.zip)
